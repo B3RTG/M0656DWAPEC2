@@ -1,6 +1,6 @@
 /*creamos la función con el "new Promise"
 * Ahora no debemos pasar las funciones "callback" en el constructor, ya que deberemos llamarlas
-  con then/catch en la llamada a la nueva funcion promise*/
+  con then/catch en la llamada a la nueva función promise*/
 const findOne = (list, { key, value }) => new Promise( ( resolve, reject ) => {
   setTimeout(() => {
     //búsqueda en lista
